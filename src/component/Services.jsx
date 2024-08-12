@@ -205,11 +205,12 @@ const Services = () => {
                  fontWeight="500"
                 borderRadius="30px"
                 border="solid 1px #DBE5DB"
-                p="8px"
+                p={{ base: "8px", md: "auto", lg: "12px" }}
                 Align="center"
                 color={activeTab === tab ? "black" : "#6F7A71"}
                 bg={activeTab === tab ? "#ffff" : "transparent" }
-                w={{ base: "25%", sm: "25%", md: "25%" }}
+                w={{ base: "auto", md: "auto", lg: "auto" }}
+                h={{ base: "auto", md: "auto", lg: "auto" }}
                 cursor="pointer"
                 onClick={() => handleTabClick(tab)}
               >
@@ -223,7 +224,9 @@ const Services = () => {
       <Box p={{ base: "20px", md: "50px" }}>
         <Flex align="stretch" direction={{ base: "column", md: "row" }} gap="0">
           <Box display={{ base: "none", md: "block" }} flex="1" p="0" mb={{ base: "20px", md: "0" }}>
-            <Box as="img" src={tabImages[activeTab]} alt={`${activeTab} image`} w="100%" h="auto" borderRadius="15px 0px 0px 15px" />
+            <Box as="img" src={tabImages[activeTab]} alt={`${activeTab} image`} w="100%" 
+             h= {{  md: "100%", lg: "900px" }}
+             borderRadius="15px 0px 0px 15px" />
           </Box>
           <Box flex="1" boxShadow="#999" border={{ base: '0px', md: '1px solid #999', lg: '1px solid #999' }} borderRadius="4px 15px 15px 0px" p="5%" m="0" display="flex" flexDirection="column" justifyContent="space-between">
             <Box>
