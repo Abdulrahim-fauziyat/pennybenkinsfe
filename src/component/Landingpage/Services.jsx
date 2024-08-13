@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import { Box, Container, Flex, HStack, Text } from "@chakra-ui/react";
-import Service from "../assets/serviceicon.png";
-import calculator from '../assets/calculator.png';
-import savings from '../assets/savings.png'; 
-import investment from '../assets/investment.png'; 
-import insurance from '../assets/insurance.png'; 
-import arrow from '../assets/arrow.png';
-import investmentIcon from '../assets/invest.png';
-import savingsIcon from '../assets/save.png'; 
-import insureIcon from '../assets/insure.png';
+import Service from "../../assets/serviceicon.png";
+import calculator from '../../assets/calculator.png';
+import savings from '../../assets/savings.png'; 
+import investment from '../../assets/investment.png'; 
+import insurance from '../../assets/insurance.png'; 
+import arrow from '../../assets/arrow.png';
+import investmentIcon from '../../assets/invest.png';
+import savingsIcon from '../../assets/save.png'; 
+import insureIcon from '../../assets/insure.png';
 import { ArrowForwardIcon } from '@chakra-ui/icons';
-import check from '../assets/checkmark.png'
+import check from '../../assets/checkmark.png'
 
 const Services = () => {
   const [activeTab, setActiveTab] = useState('Loan');

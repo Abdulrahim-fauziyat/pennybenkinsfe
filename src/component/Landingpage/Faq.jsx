@@ -1,10 +1,10 @@
 import React from 'react';
 import { Box, Flex, Text, Container,VStack,  Accordion, AccordionItem, AccordionButton,Button, AccordionPanel, HStack } from '@chakra-ui/react';
 import { MinusIcon, AddIcon } from '@chakra-ui/icons';
-import Service from "../assets/serviceicon.png";
-import shakeicon from "../assets/shakeicon.png";
-import CMB from "../assets/CMB.png";
-import FederalMbank from "../assets/FederalMbank.png";
+import Service from "../../assets/serviceicon.png";
+import shakeicon from "../../assets/shakeicon.png";
+import CMB from "../../assets/CMB.png";
+import FederalMbank from "../../assets/FederalMbank.png";
 
 const Faq = () => {
   return (

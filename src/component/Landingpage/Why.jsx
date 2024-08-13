@@ -1,7 +1,7 @@
 import { Container, Box, Flex, Text } from '@chakra-ui/react';
 import React from 'react';
-import why from "../assets/whyicon.png";
-import copymark from "../assets/copy-check.png";
+import why from "../../assets/whyicon.png";
+import copymark from "../../assets/copy-check.png";
 
 const Why = () => {
   const benefits = [

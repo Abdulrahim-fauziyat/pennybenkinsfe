@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, HStack, Text, Button, Flex, VStack } from "@chakra-ui/react";
-import person from '../assets/person.png';
+import person from '../../assets/person.png';
 import { ArrowForwardIcon } from '@chakra-ui/icons';
 
 const Register = () => {

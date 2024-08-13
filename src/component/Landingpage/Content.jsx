@@ -1,8 +1,8 @@
 import React from 'react';
 import { Box, HStack, Text, Button, Flex, VStack } from '@chakra-ui/react';
 import { ArrowForwardIcon } from '@chakra-ui/icons';
-import Shield from '../assets/Shield.png';
-import Family from '../assets/familyframe.png';
+import Shield from '../../assets/Shield.png';
+import Family from '../../assets/familyframe.png';
 import Services from './Services';
 import Register from './Register';
 import Why from './Why';

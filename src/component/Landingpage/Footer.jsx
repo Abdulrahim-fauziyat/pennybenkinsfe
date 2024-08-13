@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from '../assets/ps_logo.png';
-import linkdin from '../assets/linkedin.png';
-import Facebook from '../assets/facebook.png';
-import tweeter from '../assets/twitter-x.png';
+import logo from '../../assets/ps_logo.png';
+import linkdin from '../../assets/linkedin.png';
+import Facebook from '../../assets/facebook.png';
+import tweeter from '../../assets/twitter-x.png';
 import { Box, HStack, Flex } from '@chakra-ui/react';
 
 const Footer = () => {
